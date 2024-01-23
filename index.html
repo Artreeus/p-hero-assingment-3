@@ -38,6 +38,20 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
+        label{
+          color: #131318;
+          font-size: 20px;
+          font-weight: 700;
+          padding-bottom: 15px;
+        }
+        ::placeholder{
+          color: rgba(19, 19, 24, 0.30);
+          font-family: Manrope;
+          font-size: 16px;
+          font-weight: 400;
+          padding-left: 10px;
+        }
+
     </style>
   </head>
   <body class="font-manrope" >
@@ -75,6 +89,9 @@
                 </div>
               </div>
         </nav>
+
+        <!-- carousel SECTION START  -->
+
         <section class="container mx-auto lg:px-5 px-8">
             <div class="carousel w-full relative py-6 ">
 
@@ -100,9 +117,15 @@
                 </div>
               </div>
         </section>
+
+        <!-- carousel SECTION eND  -->
+
     </header>
 
     <main>
+
+      <!-- PROGRESS SECTION START  -->
+
         <section class=" container mx-auto lg:py-8 py-8">
             <div class=" text-center py-10 border-dashed border-t border-b  border-gray-300 lg:-mt-28 space-y-5">
                 <h1 class="text-[#131318] lg:text-4xl text-xl font-extrabold"> Professional Hockeys Club</h1>
@@ -134,6 +157,11 @@
 
             </div>
         </section>
+
+      <!-- PROGRESS SECTION eND -->
+
+
+      <!-- GALLERY SECTION START  -->
 
         <section class=" container mx-auto lg:px-5 lg:py-20 py-8 px-8">            
           <div class=" text-center py-10 border-dashed border-t border-b  border-gray-300 lg:-mt-28 space-y-5">
@@ -173,8 +201,12 @@
             </div>
         </section>
 
+      <!-- GALLERY SECTION eND  -->
 
-<section class=" container mx-auto lg:px-5 lg:py-20 py-8 px-8">
+
+        <!-- pRODUCT SECTION START  -->
+
+        <section class=" container mx-auto lg:px-5 lg:py-20 py-8 px-8">
             <div class=" text-center py-10 border-dashed border-t border-b  border-gray-300 lg:-mt-28 space-y-5">
                 <h1 class="text-[#131318] lg:text-4xl text-xl font-extrabold"> Our New Products</h1>
                 <p class="text-sm"> 
@@ -182,6 +214,12 @@
                 </p>
               </div>
         </section>
+
+        <!-- pRODUCT SECTION eND  -->
+
+
+
+        <!-- FAQ SECTION START  -->
 
         <section class="container mx-auto  rounded-none lg:px-5 lg:py-20 py-8 px-8">
           <div class=" text-center py-10 border-dashed border-t border-b  border-gray-300 lg:-mt-28 space-y-5">
@@ -257,8 +295,80 @@
               </div>
             </div>
       </section>
+
+        <!-- FAQ SECTION END  -->
+
+        <!-- GET IN TOUCH SECTION START  -->
+
+      <section class="container mx-auto  rounded-none lg:px-5 lg:py-20 ">
+        <div class=" text-center py-10 border-dashed border-t border-b  border-gray-300 lg:-mt-28 space-y-5">
+          <h1 class="text-[#131318] lg:text-4xl text-xl font-extrabold"> Get In Touch</h1>
+          <p class="text-sm"> 
+            The "Get in Touch" section provides a direct avenue for communication, fostering connections and enabling seamless interaction with users or clients.
+          </p>
+        </div>
+
+        <div class="hero  my-20 ">
+            <div class="hero-content flex-col lg:gap-24 lg:flex-row items-center justify-center ">
+              <div class="border  rounded-xl  space-y-5 lg:p-10 p-5">
+                <div class="phone lg:w-[374px] lg:h-[216px] w-[287px] h-[184px] bg-[#bced6e1a] space-y-4 pt-9 ps-6">
+                  <img src="images/Group 1171275317.png" alt="">
+                  <p class="text-sm text-gray-700 font-normal">Phone Number :</p>
+                  <h4 class=" text-xl text-[131318] font-bold"> (+62) 123-321-543</h4>
+                </div>
+                <div class="mail lg:w-[374px] lg:h-[216px] w-[287px] h-[184px] bg-[#fddd5f1a] space-y-4 pt-9 ps-6 ">
+                  <img src="images/Group 1171275318.png" alt="">
+                  <p class="text-sm text-gray-700 font-normal">Email :</p>
+                  <h4 class=" text-xl text-[131318] font-bold"> hockeys@support.com</h4>
+                </div>
+                <div class="map lg:w-[374px] lg:h-[216px] w-[287px] h-[200px] bg-[#629cf31a] space-y-4 pt-9 ps-6">
+                  <img src="images/Group 1171275321.png" alt="">
+                  <p class="text-sm text-gray-700 font-normal">Location :</p>  
+                  <h4 class=" text-xl text-[131318] font-bold">152/1 Mohakhali Wireless Gate</h4>
+                </div>
+              </div>
+
+              <div class="space-y-8 ">
+                <div class="up flex gap-5 lg:flex-row flex-col mx-auto">
+                <div>
+                  <label for="" class="block">Your Name</label>
+                <input type="text" placeholder="Enter Your Full Name" class="lg:h-[64px] lg:w-[324px] rounded-xl bg-[#13131808] w-full h-[64px]">
+              </div>
+                <div>
+                  <label for="" class="block">Your Email</label>
+                <input type="text" placeholder="Enter Your Email" class="lg:h-[64px] lg:w-[324px] rounded-xl bg-[#13131808] w-full h-[64px]">
+                </div>
+                
+              </div>
+              <div class="down flex gap-5 lg:flex-row flex-col w-auto">
+                <div>
+                  <label for="" class="block">Subject</label>
+                <input type="text" placeholder="Enter Your Subject" class="lg:h-[64px] lg:w-[324px] rounded-xl bg-[#13131808] w-full h-[64px]">
+              </div>
+                <div>
+                  <label for="" class="block">Phone Number</label>
+                <input type="text" placeholder="Enter Your Phone Number" class="lg:h-[64px] lg:w-[324px] rounded-xl bg-[#13131808] w-full h-[64px]">
+                </div>
+              </div>
+              <div class="bottom ">
+                <label for="" class="block">Message</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Your Message" class="lg:w-[672px] lg:h-[370px] rounded-xl bg-[#13131808] w-full h-[200px]"></textarea>
+                <a class="btn bg-[#FF4240] text-white px-6 py-4 w-full" >Send Message</a>
+              </div>
+              </div>
+
+              
+              
+              <div>
+    </section>
+
+        <!-- GET IN TOUCH SECTION END  -->
+
     </main>
 
     <footer></footer>
   </body>
 </html>
+
+
+
